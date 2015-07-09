@@ -13,6 +13,7 @@
 		C78B4AF21B4D47EA00B9625F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C78B4AF01B4D47EA00B9625F /* Main.storyboard */; };
 		C78B4AF41B4D47EA00B9625F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C78B4AF31B4D47EA00B9625F /* Assets.xcassets */; };
 		C78B4AF71B4D47EA00B9625F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C78B4AF51B4D47EA00B9625F /* LaunchScreen.storyboard */; };
+		C7FD85FF1B4F01C2002E1659 /* ColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FD85FE1B4F01C2002E1659 /* ColorWheel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C78B4AF31B4D47EA00B9625F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C78B4AF61B4D47EA00B9625F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C78B4AF81B4D47EA00B9625F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7FD85FE1B4F01C2002E1659 /* ColorWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWheel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				C78B4AEC1B4D47EA00B9625F /* AppDelegate.swift */,
+				C743E6A91B4DD5E00085AFF9 /* FactBook.swift */,
+				C7FD85FE1B4F01C2002E1659 /* ColorWheel.swift */,
 				C78B4AEE1B4D47EA00B9625F /* ViewController.swift */,
 				C78B4AF01B4D47EA00B9625F /* Main.storyboard */,
 				C78B4AF31B4D47EA00B9625F /* Assets.xcassets */,
 				C78B4AF51B4D47EA00B9625F /* LaunchScreen.storyboard */,
 				C78B4AF81B4D47EA00B9625F /* Info.plist */,
-				C743E6A91B4DD5E00085AFF9 /* FactBook.swift */,
 			);
 			path = FunFacts;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				C743E6AA1B4DD5E00085AFF9 /* FactBook.swift in Sources */,
 				C78B4AEF1B4D47EA00B9625F /* ViewController.swift in Sources */,
 				C78B4AED1B4D47EA00B9625F /* AppDelegate.swift in Sources */,
+				C7FD85FF1B4F01C2002E1659 /* ColorWheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

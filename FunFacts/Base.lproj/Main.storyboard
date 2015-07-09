@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8121.20" systemVersion="15A204h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8121.20" systemVersion="15A216g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.16"/>
     </dependencies>
@@ -20,34 +20,37 @@
                                 <rect key="frame" x="20" y="28" width="112" height="21"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="An interesting fact goes here" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AbT-xk-FJe">
-                                <rect key="frame" x="20" y="116.5" width="280" height="24"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3R1-hx-OO2">
-                                <rect key="frame" x="70" y="269" width="180" height="30"/>
+                                <rect key="frame" x="70" y="504" width="180" height="44"/>
                                 <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.20352250259999999" green="0.63369467749999997" blue="0.85359116020000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Show another fact"/>
                                 <connections>
                                     <action selector="showFunFact" destination="BYZ-38-t0r" eventType="touchUpInside" id="Emw-O3-xzC"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="An interesting fact goes here" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AbT-xk-FJe">
+                                <rect key="frame" x="20" y="272" width="280" height="24"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.35294117650000001" green="0.73333333329999995" blue="0.70980392160000005" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="AbT-xk-FJe" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-155" id="C6w-XE-X5E"/>
+                            <constraint firstItem="AbT-xk-FJe" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="C6w-XE-X5E"/>
                             <constraint firstAttribute="trailing" secondItem="AbT-xk-FJe" secondAttribute="trailing" constant="20" id="Ktj-7z-ObD"/>
                             <constraint firstItem="AbT-xk-FJe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="NI9-dp-Hmw"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="funFactButton" destination="3R1-hx-OO2" id="K86-gk-oKe"/>
                         <outlet property="funFactLabel" destination="AbT-xk-FJe" id="G6Q-Od-aNk"/>
                     </connections>
                 </viewController>
